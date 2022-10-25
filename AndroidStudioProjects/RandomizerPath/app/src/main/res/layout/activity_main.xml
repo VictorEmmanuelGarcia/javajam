@@ -1,0 +1,980 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TableLayout
+        android:id="@+id/table_10x10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.8"
+        tools:layout_editor_absoluteX="156dp">
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/BTN1"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_margin="1px"
+                android:layout_weight="1"
+                android:onClick="clicked"
+                android:text="@string/test"
+                tools:ignore="TouchTargetSizeCheck" />
+
+            <Button
+                android:id="@+id/BTN2"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_margin="1px"
+                android:layout_weight="1"
+                android:onClick="clicked"
+                android:text="@string/test"
+                tools:ignore="TouchTargetSizeCheck" />
+
+            <Button
+                android:id="@+id/BTN3"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_margin="1px"
+                android:layout_weight="1"
+                android:text="@string/test"
+                android:onClick="clicked"
+                tools:ignore="TouchTargetSizeCheck" />
+
+            <Button
+                android:id="@+id/BTN4"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_margin="1px"
+                android:layout_weight="1"
+                android:onClick="clicked"
+                android:text="@string/test"
+                tools:ignore="TouchTargetSizeCheck" />
+
+            <Button
+                android:id="@+id/BTN5"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_margin="1px"
+                android:layout_weight="1"
+                android:onClick="clicked"
+                android:text="@string/test"
+                tools:ignore="TouchTargetSizeCheck" />
+
+            <Button
+                android:id="@+id/BTN6"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_margin="1px"
+                android:layout_weight="1"
+                android:onClick="clicked"
+                android:text="@string/test"
+                tools:ignore="TouchTargetSizeCheck" />
+
+            <Button
+                android:id="@+id/BTN7"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_margin="1px"
+                android:layout_weight="1"
+                android:onClick="clicked"
+                android:text="@string/test"
+                tools:ignore="TouchTargetSizeCheck" />
+
+            <Button
+                android:id="@+id/BTN8"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_margin="1px"
+                android:layout_weight="1"
+                android:onClick="clicked"
+                android:text="@string/test"
+                tools:ignore="TouchTargetSizeCheck" />
+
+            <Button
+                android:id="@+id/BTN9"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_margin="1px"
+                android:layout_weight="1"
+                android:onClick="clicked"
+                android:text="@string/test"
+                tools:ignore="TouchTargetSizeCheck" />
+
+            <Button
+                android:id="@+id/BTN10"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_margin="1px"
+                android:layout_weight="1"
+                android:onClick="clicked"
+                android:text="@string/test"
+                tools:ignore="TouchTargetSizeCheck" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/BTN11"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_margin="1px"
+                android:layout_weight="1"
+                android:onClick="clicked"
+                android:text="@string/test" />
+
+            <Button
+                android:id="@+id/BTN12"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_margin="1px"
+                android:layout_weight="1"
+                android:onClick="clicked"
+                android:text="@string/test" />
+
+            <Button
+                android:id="@+id/BTN13"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_margin="1px"
+                android:layout_weight="1"
+                android:onClick="clicked"
+                android:text="@string/test" />
+
+            <Button
+                android:id="@+id/BTN14"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_margin="1px"
+                android:layout_weight="1"
+                android:onClick="clicked"
+                android:text="@string/test" />
+
+            <Button
+                android:id="@+id/BTN15"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_margin="1px"
+                android:layout_weight="1"
+                android:onClick="clicked"
+                android:text="@string/test" />
+
+            <Button
+                android:id="@+id/BTN16"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_margin="1px"
+                android:layout_weight="1"
+                android:onClick="clicked"
+                android:text="@string/test" />
+
+            <Button
+                android:id="@+id/BTN17"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_margin="1px"
+                android:layout_weight="1"
+                android:onClick="clicked"
+                android:text="@string/test" />
+
+            <Button
+                android:id="@+id/BTN18"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_margin="1px"
+                android:layout_weight="1"
+                android:onClick="clicked"
+                android:text="@string/test" />
+
+            <Button
+                android:id="@+id/BTN19"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_margin="1px"
+                android:layout_weight="1"
+                android:onClick="clicked"
+                android:text="@string/test" />
+
+            <Button
+                android:id="@+id/BTN20"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_margin="1px"
+                android:layout_weight="1"
+                android:onClick="clicked"
+                android:text="@string/test" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/BTN21"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_margin="1px"
+                android:layout_weight="1"
+                android:onClick="clicked"
+                android:text="@string/test" />
+
+            <Button
+                android:id="@+id/BTN22"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_margin="1px"
+                android:layout_weight="1"
+                android:onClick="clicked"
+                android:text="@string/test" />
+
+            <Button
+                android:id="@+id/BTN23"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_margin="1px"
+                android:layout_weight="1"
+                android:onClick="clicked"
+                android:text="@string/test" />
+
+            <Button
+                android:id="@+id/BTN24"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_margin="1px"
+                android:layout_weight="1"
+                android:onClick="clicked"
+                android:text="@string/test" />
+
+            <Button
+                android:id="@+id/BTN25"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_margin="1px"
+                android:layout_weight="1"
+                android:onClick="clicked"
+                android:text="@string/test" />
+
+            <Button
+                android:id="@+id/BTN26"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_margin="1px"
+                android:layout_weight="1"
+                android:onClick="clicked"
+                android:text="@string/test" />
+
+            <Button
+                android:id="@+id/BTN27"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_margin="1px"
+                android:layout_weight="1"
+                android:onClick="clicked"
+                android:text="@string/test" />
+
+            <Button
+                android:id="@+id/BTN28"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_margin="1px"
+                android:layout_weight="1"
+                android:onClick="clicked"
+                android:text="@string/test" />
+
+            <Button
+                android:id="@+id/BTN29"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_margin="1px"
+                android:layout_weight="1"
+                android:onClick="clicked"
+                android:text="@string/test" />
+
+            <Button
+                android:id="@+id/BTN30"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_margin="1px"
+                android:layout_weight="1"
+                android:onClick="clicked"
+                android:text="@string/test" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/BTN31"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_margin="1px"
+                android:layout_weight="1"
+                android:onClick="clicked"
+                android:text="@string/test" />
+
+            <Button
+                android:id="@+id/BTN32"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_margin="1px"
+                android:layout_weight="1"
+                android:onClick="clicked"
+                android:text="@string/test" />
+
+            <Button
+                android:id="@+id/BTN33"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_margin="1px"
+                android:layout_weight="1"
+                android:onClick="clicked"
+                android:text="@string/test" />
+
+            <Button
+                android:id="@+id/BTN34"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_margin="1px"
+                android:layout_weight="1"
+                android:onClick="clicked"
+                android:text="@string/test" />
+
+            <Button
+                android:id="@+id/BTN35"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_margin="1px"
+                android:layout_weight="1"
+                android:onClick="clicked"
+                android:text="@string/test" />
+
+            <Button
+                android:id="@+id/BTN36"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_margin="1px"
+                android:layout_weight="1"
+                android:onClick="clicked"
+                android:text="@string/test" />
+
+            <Button
+                android:id="@+id/BTN37"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_margin="1px"
+                android:layout_weight="1"
+                android:onClick="clicked"
+                android:text="@string/test" />
+
+            <Button
+                android:id="@+id/BTN38"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_margin="1px"
+                android:layout_weight="1"
+                android:onClick="clicked"
+                android:text="@string/test" />
+
+            <Button
+                android:id="@+id/BTN39"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_margin="1px"
+                android:layout_weight="1"
+                android:onClick="clicked"
+                android:text="@string/test" />
+
+            <Button
+                android:id="@+id/BTN40"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_margin="1px"
+                android:layout_weight="1"
+                android:onClick="clicked"
+                android:text="@string/test" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/BTN41"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_margin="1px"
+                android:layout_weight="1"
+                android:onClick="clicked"
+                android:text="@string/test" />
+
+            <Button
+                android:id="@+id/BTN42"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_margin="1px"
+                android:layout_weight="1"
+                android:onClick="clicked"
+                android:text="@string/test" />
+
+            <Button
+                android:id="@+id/BTN43"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_margin="1px"
+                android:layout_weight="1"
+                android:onClick="clicked"
+                android:text="@string/test" />
+
+            <Button
+                android:id="@+id/BTN44"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_margin="1px"
+                android:layout_weight="1"
+                android:onClick="clicked"
+                android:text="@string/test" />
+
+            <Button
+                android:id="@+id/BTN45"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_margin="1px"
+                android:layout_weight="1"
+                android:onClick="clicked"
+                android:text="@string/test" />
+
+            <Button
+                android:id="@+id/BTN46"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_margin="1px"
+                android:layout_weight="1"
+                android:onClick="clicked"
+                android:text="@string/test" />
+
+            <Button
+                android:id="@+id/BTN47"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_margin="1px"
+                android:layout_weight="1"
+                android:onClick="clicked"
+                android:text="@string/test" />
+
+            <Button
+                android:id="@+id/BTN48"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_margin="1px"
+                android:layout_weight="1"
+                android:onClick="clicked"
+                android:text="@string/test" />
+
+            <Button
+                android:id="@+id/BTN49"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_margin="1px"
+                android:layout_weight="1"
+                android:onClick="clicked"
+                android:text="@string/test" />
+
+            <Button
+                android:id="@+id/BTN50"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_margin="1px"
+                android:layout_weight="1"
+                android:onClick="clicked"
+                android:text="@string/test" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/BTN51"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_margin="1px"
+                android:layout_weight="1"
+                android:onClick="clicked"
+                android:text="@string/test" />
+
+            <Button
+                android:id="@+id/BTN52"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_margin="1px"
+                android:layout_weight="1"
+                android:onClick="clicked"
+                android:text="@string/test" />
+
+            <Button
+                android:id="@+id/BTN53"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_margin="1px"
+                android:layout_weight="1"
+                android:onClick="clicked"
+                android:text="@string/test" />
+
+            <Button
+                android:id="@+id/BTN54"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_margin="1px"
+                android:layout_weight="1"
+                android:onClick="clicked"
+                android:text="@string/test" />
+
+            <Button
+                android:id="@+id/BTN55"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_margin="1px"
+                android:layout_weight="1"
+                android:onClick="clicked"
+                android:text="@string/test" />
+
+            <Button
+                android:id="@+id/BTN56"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_margin="1px"
+                android:layout_weight="1"
+                android:onClick="clicked"
+                android:text="@string/test" />
+
+            <Button
+                android:id="@+id/BTN57"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_margin="1px"
+                android:layout_weight="1"
+                android:onClick="clicked"
+                android:text="@string/test" />
+
+            <Button
+                android:id="@+id/BTN58"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_margin="1px"
+                android:layout_weight="1"
+                android:onClick="clicked"
+                android:text="@string/test" />
+
+            <Button
+                android:id="@+id/BTN59"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_margin="1px"
+                android:layout_weight="1"
+                android:onClick="clicked"
+                android:text="@string/test" />
+
+            <Button
+                android:id="@+id/BTN60"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_margin="1px"
+                android:layout_weight="1"
+                android:onClick="clicked"
+                android:text="@string/test" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/BTN61"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_margin="1px"
+                android:layout_weight="1"
+                android:onClick="clicked"
+                android:text="@string/test" />
+
+            <Button
+                android:id="@+id/BTN62"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_margin="1px"
+                android:layout_weight="1"
+                android:onClick="clicked"
+                android:text="@string/test" />
+
+            <Button
+                android:id="@+id/BTN63"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_margin="1px"
+                android:layout_weight="1"
+                android:onClick="clicked"
+                android:text="@string/test" />
+
+            <Button
+                android:id="@+id/BTN64"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_margin="1px"
+                android:layout_weight="1"
+                android:onClick="clicked"
+                android:text="@string/test" />
+
+            <Button
+                android:id="@+id/BTN65"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_margin="1px"
+                android:layout_weight="1"
+                android:onClick="clicked"
+                android:text="@string/test" />
+
+            <Button
+                android:id="@+id/BTN66"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_margin="1px"
+                android:layout_weight="1"
+                android:onClick="clicked"
+                android:text="@string/test" />
+
+            <Button
+                android:id="@+id/BTN67"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_margin="1px"
+                android:layout_weight="1"
+                android:onClick="clicked"
+                android:text="@string/test" />
+
+            <Button
+                android:id="@+id/BTN68"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_margin="1px"
+                android:layout_weight="1"
+                android:onClick="clicked"
+                android:text="@string/test" />
+
+            <Button
+                android:id="@+id/BTN69"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_margin="1px"
+                android:layout_weight="1"
+                android:onClick="clicked"
+                android:text="@string/test" />
+
+            <Button
+                android:id="@+id/BTN70"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_margin="1px"
+                android:layout_weight="1"
+                android:onClick="clicked"
+                android:text="@string/test" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/BTN71"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_margin="1px"
+                android:layout_weight="1"
+                android:onClick="clicked"
+                android:text="@string/test" />
+
+            <Button
+                android:id="@+id/BTN72"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_margin="1px"
+                android:layout_weight="1"
+                android:onClick="clicked"
+                android:text="@string/test" />
+
+            <Button
+                android:id="@+id/BTN73"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_margin="1px"
+                android:layout_weight="1"
+                android:onClick="clicked"
+                android:text="@string/test" />
+
+            <Button
+                android:id="@+id/BTN74"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_margin="1px"
+                android:layout_weight="1"
+                android:onClick="clicked"
+                android:text="@string/test" />
+
+            <Button
+                android:id="@+id/BTN75"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_margin="1px"
+                android:layout_weight="1"
+                android:onClick="clicked"
+                android:text="@string/test" />
+
+            <Button
+                android:id="@+id/BTN76"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_margin="1px"
+                android:layout_weight="1"
+                android:onClick="clicked"
+                android:text="@string/test" />
+
+            <Button
+                android:id="@+id/BTN77"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_margin="1px"
+                android:layout_weight="1"
+                android:onClick="clicked"
+                android:text="@string/test" />
+
+            <Button
+                android:id="@+id/BTN78"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_margin="1px"
+                android:layout_weight="1"
+                android:onClick="clicked"
+                android:text="@string/test" />
+
+            <Button
+                android:id="@+id/BTN79"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_margin="1px"
+                android:layout_weight="1"
+                android:onClick="clicked"
+                android:text="@string/test" />
+
+            <Button
+                android:id="@+id/BTN80"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_margin="1px"
+                android:layout_weight="1"
+                android:onClick="clicked"
+                android:text="@string/test" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/BTN81"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_margin="1px"
+                android:layout_weight="1"
+                android:onClick="clicked"
+                android:text="@string/test" />
+
+            <Button
+                android:id="@+id/BTN82"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_margin="1px"
+                android:layout_weight="1"
+                android:onClick="clicked"
+                android:text="@string/test" />
+
+            <Button
+                android:id="@+id/BTN83"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_margin="1px"
+                android:layout_weight="1"
+                android:onClick="clicked"
+                android:text="@string/test" />
+
+            <Button
+                android:id="@+id/BTN84"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_margin="1px"
+                android:layout_weight="1"
+                android:onClick="clicked"
+                android:text="@string/test" />
+
+            <Button
+                android:id="@+id/BTN85"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_margin="1px"
+                android:layout_weight="1"
+                android:onClick="clicked"
+                android:text="@string/test" />
+
+            <Button
+                android:id="@+id/BTN86"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_margin="1px"
+                android:layout_weight="1"
+                android:onClick="clicked"
+                android:text="@string/test" />
+
+            <Button
+                android:id="@+id/BTN87"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_margin="1px"
+                android:layout_weight="1"
+                android:onClick="clicked"
+                android:text="@string/test" />
+
+            <Button
+                android:id="@+id/BTN88"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_margin="1px"
+                android:layout_weight="1"
+                android:onClick="clicked"
+                android:text="@string/test" />
+
+            <Button
+                android:id="@+id/BTN89"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_margin="1px"
+                android:layout_weight="1"
+                android:onClick="clicked"
+                android:text="@string/test" />
+
+            <Button
+                android:id="@+id/BTN90"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_margin="1px"
+                android:layout_weight="1"
+                android:onClick="clicked"
+                android:text="@string/test" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/BTN91"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_margin="1px"
+                android:layout_weight="1"
+                android:onClick="clicked"
+                android:text="@string/test" />
+
+            <Button
+                android:id="@+id/BTN92"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_margin="1px"
+                android:layout_weight="1"
+                android:onClick="clicked"
+                android:text="@string/test" />
+
+            <Button
+                android:id="@+id/BTN93"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_margin="1px"
+                android:layout_weight="1"
+                android:onClick="clicked"
+                android:text="@string/test" />
+
+            <Button
+                android:id="@+id/BTN94"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_margin="1px"
+                android:layout_weight="1"
+                android:onClick="clicked"
+                android:text="@string/test" />
+
+            <Button
+                android:id="@+id/BTN95"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_margin="1px"
+                android:layout_weight="1"
+                android:onClick="clicked"
+                android:text="@string/test" />
+
+            <Button
+                android:id="@+id/BTN96"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_margin="1px"
+                android:layout_weight="1"
+                android:onClick="clicked"
+                android:text="@string/test" />
+
+            <Button
+                android:id="@+id/BTN97"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_margin="1px"
+                android:layout_weight="1"
+                android:onClick="clicked"
+                android:text="@string/test" />
+
+            <Button
+                android:id="@+id/BTN98"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_margin="1px"
+                android:layout_weight="1"
+                android:onClick="clicked"
+                android:text="@string/test" />
+
+            <Button
+                android:id="@+id/BTN99"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_margin="1px"
+                android:layout_weight="1"
+                android:onClick="clicked"
+                android:text="@string/test" />
+
+            <Button
+                android:id="@+id/BTN100"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_margin="1px"
+                android:layout_weight="1"
+                android:onClick="clicked"
+                android:text="@string/test" />
+        </TableRow>
+    </TableLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

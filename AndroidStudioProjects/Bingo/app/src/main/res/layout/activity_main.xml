@@ -1,0 +1,364 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <TableRow
+        android:id="@+id/bingoLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/idB"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="15dp"
+            android:textAlignment="center"
+            android:fontFamily="serif"
+            android:text="B"
+            android:textColor="@color/black"
+            android:textSize="50dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/idI"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="15dp"
+            android:textAlignment="center"
+            android:fontFamily="serif"
+            android:text="I"
+            android:textColor="@color/black"
+            android:textSize="50dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/idN"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="15dp"
+            android:textAlignment="center"
+            android:fontFamily="serif"
+            android:text="N"
+            android:textColor="@color/black"
+            android:textSize="50dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/idG"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:textAlignment="center"
+            android:fontFamily="serif"
+            android:text="G"
+            android:textColor="@color/black"
+            android:textSize="50dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/idO"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:layout_marginLeft="20dp"
+            android:textAlignment="center"
+            android:fontFamily="serif"
+            android:text="O"
+            android:textColor="@color/black"
+            android:textSize="50dp"
+            android:textStyle="bold" />
+
+    </TableRow>
+
+    <TableLayout
+        android:id="@+id/cardLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="3dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bingoLayout">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/BTN1"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:layout_margin="3dp"
+                android:text="@string/random"
+                android:textSize="20dp" />
+
+            <Button
+                android:id="@+id/BTN2"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:layout_margin="3dp"
+                android:text="@string/random"
+                android:textSize="20dp" />
+
+            <Button
+                android:id="@+id/BTN3"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:layout_margin="3dp"
+                android:text="@string/random"
+                android:textSize="20dp" />
+
+            <Button
+                android:id="@+id/BTN4"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:layout_margin="3dp"
+                android:text="@string/random"
+                android:textSize="20dp" />
+
+            <Button
+                android:id="@+id/BTN5"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:layout_margin="3dp"
+                android:text="@string/random"
+                android:textSize="20dp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/BTN6"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:layout_margin="3dp"
+                android:text="@string/random"
+                android:textSize="20dp" />
+
+            <Button
+                android:id="@+id/BTN7"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:layout_margin="3dp"
+                android:text="@string/random"
+                android:textSize="20dp" />
+
+            <Button
+                android:id="@+id/BTN8"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:layout_margin="3dp"
+                android:text="@string/random"
+                android:textSize="20dp" />
+
+            <Button
+                android:id="@+id/BTN9"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:layout_margin="3dp"
+                android:text="@string/random"
+                android:textSize="20dp" />
+
+            <Button
+                android:id="@+id/BTN10"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:layout_margin="3dp"
+                android:text="@string/random"
+                android:textSize="20dp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/BTN11"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:layout_margin="3dp"
+                android:text="@string/random"
+                android:textSize="20dp" />
+
+            <Button
+                android:id="@+id/BTN12"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:layout_margin="3dp"
+                android:text="@string/random"
+                android:textSize="20dp" />
+
+            <Button
+                android:id="@+id/BTN13"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:layout_margin="3dp"
+                android:text="@string/random"
+                android:textSize="20dp" />
+
+            <Button
+                android:id="@+id/BTN14"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:layout_margin="3dp"
+                android:text="@string/random"
+                android:textSize="20dp" />
+
+            <Button
+                android:id="@+id/BTN15"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:layout_margin="3dp"
+                android:text="@string/random"
+                android:textSize="20dp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/BTN16"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:layout_margin="3dp"
+                android:text="@string/random"
+                android:textSize="20dp" />
+
+            <Button
+                android:id="@+id/BTN17"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:layout_margin="3dp"
+                android:text="@string/random"
+                android:textSize="20dp" />
+
+            <Button
+                android:id="@+id/BTN18"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:layout_margin="3dp"
+                android:text="@string/random"
+                android:textSize="20dp" />
+
+            <Button
+                android:id="@+id/BTN19"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:layout_margin="3dp"
+                android:text="@string/random"
+                android:textSize="20dp" />
+
+            <Button
+                android:id="@+id/BTN20"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:layout_margin="3dp"
+                android:text="@string/random"
+                android:textSize="20dp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/BTN21"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:layout_margin="3dp"
+                android:text="@string/random"
+                android:textSize="20dp" />
+
+            <Button
+                android:id="@+id/BTN22"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:layout_margin="3dp"
+                android:text="@string/random"
+                android:textSize="20dp" />
+
+            <Button
+                android:id="@+id/BTN23"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:layout_margin="3dp"
+                android:text="@string/random"
+                android:textSize="20dp" />
+
+            <Button
+                android:id="@+id/BTN24"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:layout_margin="3dp"
+                android:text="@string/random"
+                android:textSize="20dp" />
+
+            <Button
+                android:id="@+id/BTN25"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:layout_margin="3dp"
+                android:text="@string/random"
+                android:textSize="20dp" />
+        </TableRow>
+    </TableLayout>
+
+    <TableRow
+        android:id="@+id/codeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cardLayout">
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/gameCodeLayout"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="200dp"
+            android:layout_height="85dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="30dp"
+            android:hint="Game Code"
+            app:helperTextEnabled="true"
+            app:helperText="Required*"
+            app:helperTextTextColor="@color/red"
+            app:counterEnabled="true"
+            app:counterMaxLength="8"
+            app:endIconMode="clear_text">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/gameCode"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:maxLength="8"
+                android:textSize="20dp"
+                android:inputType="text" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <Button
+            android:id="@+id/BTN_enterGame"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/enterGame" />
+    </TableRow>
+
+    <Button
+        android:id="@+id/BTN_bingo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/bingo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/codeLayout" />
+</androidx.constraintlayout.widget.ConstraintLayout>

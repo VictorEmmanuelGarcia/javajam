@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Bingo</string>
+    <string name="random"></string>
+    <string name="enterGame">Enter Game</string>
+    <string name="nextBall">Next Ball</string>
+    <string name="bingo">BINGO!</string>
+</resources>
